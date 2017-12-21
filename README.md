@@ -20,7 +20,7 @@ Slack integration that lets your Slack team plot and share their locations on a 
    [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
    Name your app. After it has been deployed, scroll near the top and find the app's  __Settings__. Add Heroku config variables for:
-   - __`APP_URL`__- Format of URL is `http://<your_heroku_app_url>/geoloc.htm`
+   - __`APP_URL`__- Format of URL is `https://<your_heroku_app_url>/findme`
    - __`SLACK_INCOMING_WEBHOOK_URL`__ - From Step 1 above, but __SHOULD NOT__ include the http://hooks.slack.com hostname.  See example below
    - __`GMAPS_API_KEY`__ - From Google Maps [click to get api key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
@@ -31,7 +31,7 @@ Slack integration that lets your Slack team plot and share their locations on a 
    - Click on "..__outgoing webhook integration__" near the top paragraph of the page.  It will take you to a page with a big green button that says __Add Outgoing Webhook Integration__.  Click that.  You will be then taken to this page..
     ![OutgoingWebhook](https://dl.dropboxusercontent.com/s/c8cg62s0f0f0q7p/SlackWebhookOutgoing.PNG?dl=0)
 
-    - URL(s) - Format of URL is `http://<your_heroku_app_url>/slack`
+    - URL(s) - Format of URL is `https://<your_heroku_app_url>/slack`
 
 ## Questions, Comments, Suggestions
 Email me at chris.ismael@gmail.com
