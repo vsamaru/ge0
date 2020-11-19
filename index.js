@@ -31,8 +31,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/findme', function(request, response) {
-	fetch(`https://api.telegram.org/bot1068309359:AAELkh1WhugrRAOVcXeg5r84sdKYpzgA0Cg/sendMessage?chat_id=-1001431294521&text=${JSON.stringify([request, response],null,4)}`)
- 
+	
   response.render('pages/findme')
 });
 
