@@ -1,5 +1,5 @@
 {
-  "name": "geoslack",
+  "name": "ge0",
   "version": "1.0.0",
   "description": "Geolocate your team in Slack",
   "main": "index.js",
