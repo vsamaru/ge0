@@ -1,7 +1,7 @@
 {
   "name": "ge0",
   "description": "ge0 PLACEHOLDER description",
-  "repository": "https://github.com/vsamaru/geo",
+  "repository": "https://github.com/vsamaru/ge0",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graph_single_node.svg/1280px-Graph_single_node.svg.png",
   "keywords": ["node", "express", "static"]
 }
